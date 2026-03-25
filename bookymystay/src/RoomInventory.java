@@ -19,4 +19,8 @@ public class RoomInventory {
     public void decrementRoom(String roomType) {
         roomAvailability.put(roomType, getAvailability(roomType) - 1);
     }
+
+    public Map<String, Integer> getRoomAvailability() {
+        return roomAvailability;
+    }
 }
