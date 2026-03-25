@@ -2,7 +2,7 @@
  * Use Case 2: Basic Room Types & Static Availability
  * @version 2.0
  */
-public class UseCase2RoomInitialization {
+public class UseCase5BookingRequestQueue {
 
     public static void main(String[] args) {
 
